@@ -1,0 +1,67 @@
+@media all and (min-width: 950px)
+{
+    main
+    {
+        height:55vh;
+        margin: 3em;   
+    }
+    form
+    {
+        flex-direction: row;        
+        width:65%;
+        min-width:800px;
+        height: 100%;
+        padding: 0;
+        margin: 3em auto;
+    }
+    #calc-pannel
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;        
+        height:90%;
+        width:50%;
+    }
+    #result-pannel
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+        padding: 1em;
+        margin-right: 1.8em;
+        height:80%;
+        width:50%;
+    }
+    .result
+    {
+        width:90%;
+    }
+    .tip-result
+    {
+        margin-top: 2em;
+    }
+    .total-result
+    {
+        margin-top: 3em;
+        margin-bottom: auto;
+    }
+    input[type=reset]
+    {
+        
+    }
+    #btn-list
+    {
+        display:grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:0.7em;
+    }
+    .attribution
+    {
+        position: absolute;
+        bottom: 1em;
+        width: 100%;
+    }
+}
